@@ -16,7 +16,8 @@ To clone the UMS project repository using SSH, follow these steps:
 
 3. Copy the SSH URL of the repository from the GitHub page:
 
-  # git@github.com:Vitalis-Maina/Projects.git
+  bash ```
+git@github.com:Vitalis-Maina/Projects.git ```
 
 4. Run the following command to clone the repository:
 
