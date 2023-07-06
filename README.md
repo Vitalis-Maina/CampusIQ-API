@@ -15,21 +15,25 @@ To clone the UMS project repository using SSH, follow these steps:
 2. Navigate to the directory where you want to clone the repository.
 
 3. Copy the SSH URL of the repository from the GitHub page:
-Save to grepper
+
 git@github.com:Vitalis-Maina/Projects.git
 
-bash
-Copy code
-
 4. Run the following command to clone the repository:
-Save to grepper
-git clone git@github.com:Vitalis-Maina/Projects.git
 
+git clone git@github.com:Vitalis-Maina/Projects.git
 
 
 5. Provide your SSH passphrase, if prompted.
 
-6. The repository will be cloned to your local machine.
+6. The repository will be cloned to your local machine, including the UMS folder.
+
+## Technologies Used
+
+The University Management System is built using the following technologies:
+
+- Go: Programming language used for backend development.
+- Gorilla Mux: A powerful HTTP router and URL matcher for building Go web applications. It is used for handling routing in the UMS project.
+- PostgreSQL: A popular open-source relational database management system used for storing and managing data in the UMS project.
 
 ## Usage
 
@@ -78,24 +82,12 @@ The UMS provides different endpoints to interact with the system. Below are the 
 - `PUT /v1/studentunits/{studentid}/{unitid}`: Updates the relationship between a specific student and unit.
 - `DELETE /v1/studentunits/{studentid}/{unitid}`: Deletes the relationship between a specific student and unit.
 
-## Technologies Used
-
-The University Management System is built using the following technologies:
-
-- Go: Programming language used for backend development.
-- Postgres: Database used for storage
-
 ## Contributions
 
-Contributions to the University Management System project are welcome! If you encounter any issues or have suggestions for improvements, please feel free to submit an issue or a pull request on the [UMS GitHub Repository](https://github.com/Vitalis-Maina/Projects/UMS).
+Contributions to the University Management System project are welcome! If you encounter any issues or have suggestions for improvements, please feel free to submit an issue or a pull request on the [UMS GitHub Repository](https://github.com/Vitalis-Maina/Projects).
 
 ## Acknowledgements
 
 - This application was created to demonstrate CRUD functionality for managing university-related data.
 - The design and implementation of the application are credited to Vitalis Maina.
-Save to grepper
-Please save the contents in a file named README.md to ensure it is recognized as a Markdown file.
-
-
-
 
