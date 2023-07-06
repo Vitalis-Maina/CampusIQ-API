@@ -24,10 +24,8 @@ type Config struct {
 	}
 }
 
-// struct to handler our server depandancies
 type application struct {
 	config Config
-	logger *log.Logger
 	models data.UmsModel
 }
 

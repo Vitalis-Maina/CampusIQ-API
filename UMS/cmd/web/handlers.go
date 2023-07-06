@@ -164,7 +164,7 @@ func (app *application) listData(w http.ResponseWriter, r *http.Request) {
 	err = j.Encode(data)
 
 	if err != nil {
-		app.logger.Fatal(err)
+		log.Fatal(err)
 	}
 }
 func (app *application) insertStudent(w http.ResponseWriter, r *http.Request) {
