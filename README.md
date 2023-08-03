@@ -5,7 +5,6 @@ University Management System (UMS) is a web application that performs CRUD (Crea
 ## GitHub Repository
 
 The source code for the UMS project can be found on GitHub: [UMS GitHub Repository](https://github.com/Vitalis-Maina/CampusIQ-API)
-git@github.com:Vitalis-Maina/CampusIQ-API.git
 ## Cloning the Repository
 
 To clone the UMS project repository using SSH, follow these steps:
